@@ -14,8 +14,8 @@ def sum_numbers(input_file, output_file):
 		f.write(str(results))
 
 if(__name__=="__main__"):
-	input_file = "input/input_file.dat"
-	output_file = "output/output_file.dat"
+	input_file = "data/input_file.dat"
+	output_file = "data/output_file.dat"
 	input_file=os.path.abspath(input_file)
 	output_file=os.path.abspath(output_file)
 
